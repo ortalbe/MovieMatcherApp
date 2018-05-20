@@ -17,7 +17,7 @@ public interface DataAccessObjectInterface <E extends BusinessObject>  {
     ErrorCode delete(E busniessObject);
     BusinessObject get(String className, String id);
     ErrorCode openSingeltonSessionFactory();
-    MovieBO runQuery(String query);
-    List<MovieBO> runQueryWithMultiResult(String query);
+    BusinessObject runQuery(String query);
+    List<BusinessObject> runQueryWithMultiResult(String query);
 
 }

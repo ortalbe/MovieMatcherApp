@@ -1,15 +1,18 @@
 package com.movie.matcher.definitions;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * Gender definition
  */
-public class Gender {
+@XmlRootElement
+public enum Gender {
 
-    private String value;
-    public static Gender FEMALE = new Gender("female");
-    public static Gender MEN = new Gender("men");
+    FEMALE ("female"),
+    MEN("men");
+    private final String value;
 
-    private Gender(String value) {
+    Gender(String value) {
         this.value = value;
     }
 

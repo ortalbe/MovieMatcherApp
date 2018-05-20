@@ -4,25 +4,23 @@ package com.movie.matcher.database.controller;
 import com.movie.matcher.bean.BusinessObject;
 import com.movie.matcher.bean.MovieBO;
 import com.movie.matcher.database.data.access.DataAccessObjectInterface;
-import com.movie.matcher.database.data.access.MovieDAO;
 import com.movie.matcher.definitions.ErrorCode;
-import org.hibernate.query.Query;
 
 import java.util.List;
 
 /**
- * Controler - will create a new entry to REF_MOVIE_DETAILS.
+ * Controller - will create a new entry to REF_MOVIE_DETAILS.
  * we will use to object :
  * 1. Business Object - a POJO for the entry.
  * 2. Data access object - contain all operation recognized for the table.
  */
 
-public class Controler {
+public class Controller {
 
     private DataAccessObjectInterface dataAccess;
 
 
-    public Controler(DataAccessObjectInterface dataAccess) {
+    public Controller(DataAccessObjectInterface dataAccess) {
         this.dataAccess = dataAccess;
     }
 
@@ -40,24 +38,30 @@ public class Controler {
         return status;
     }
 
+    public ErrorCode update(BusinessObject busniessObject)
+    {
+        ErrorCode status = dataAccess.update(busniessObject);
+        return status;
+    }
+
     public BusinessObject getByID(String businessObjectClass,String id)
     {
         BusinessObject businessObject = dataAccess.get(businessObjectClass,id);
         return businessObject;
     }
 
-    public MovieBO runHQL (String query)
+    public BusinessObject runHQL (String query)
     {
-        MovieBO movie = dataAccess.runQuery(query);
+        BusinessObject businessObject = dataAccess.runQuery(query);
 
-        return movie;
+        return businessObject;
     }
 
-    public List<MovieBO> runHQLWithMultiResult (String query)
+    public List<BusinessObject> runHQLWithMultiResult (String query)
     {
-        List <MovieBO> movies = dataAccess.runQueryWithMultiResult(query);
+        List <BusinessObject> businessObject = dataAccess.runQueryWithMultiResult(query);
 
-        return movies;
+        return businessObject;
     }
 
     

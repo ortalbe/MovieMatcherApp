@@ -1,8 +1,8 @@
 package com.movie.matcher.service.movie;
 
 import com.movie.matcher.bean.MovieBO;
-import com.movie.matcher.database.controller.Controler;
-import com.movie.matcher.database.data.access.MovieDAO;
+import com.movie.matcher.database.controller.Controller;
+import com.movie.matcher.database.data.access.DataAccessObject;
 import com.movie.matcher.definitions.ErrorCode;
 import com.movie.matcher.definitions.ErrorValidation;
 import com.movie.matcher.service.BaseService;
@@ -36,10 +36,10 @@ public class GetMoviesByTypeService extends BaseService{
         String methodName = "::executeImpl ";
 
         LOG.info(CLASS_NAME + methodName + "start.");
-        MovieDAO movieDAO = new MovieDAO();
-        Controler controller = new Controler(movieDAO);
+        DataAccessObject dataAccessObject = new DataAccessObject();
+        Controller controller = new Controller(dataAccessObject);
 
-        moviesList= controller.runHQLWithMultiResult("from MovieBO where ctegories = '" + type +"'" );
+        moviesList= (List<MovieBO>) (List)  controller.runHQLWithMultiResult("from MovieBO where ctegories = '" + type +"'" );
 
         if(moviesList==null || moviesList.size()==0)
         {

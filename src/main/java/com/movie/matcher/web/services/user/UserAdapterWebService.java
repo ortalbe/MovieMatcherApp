@@ -1,6 +1,13 @@
 package com.movie.matcher.web.services.user;
 
+import com.movie.matcher.bean.UserBO;
+import com.movie.matcher.definitions.ErrorCode;
+import com.movie.matcher.service.user.CreateUserService;
+import com.movie.matcher.service.user.GetUserByIDService;
+import com.movie.matcher.service.user.UpdateUserService;
 import com.movie.matcher.web.interfaces.UserResource;
+
+import javax.ws.rs.core.Response;
 
 /**
  * UserAdapterWebService - implmentation of all users resources
@@ -8,15 +15,22 @@ import com.movie.matcher.web.interfaces.UserResource;
 
 //TODO_Ortal - understand how to seprate it to a few class each method in a different class.
 public class UserAdapterWebService implements UserResource {
-    public String createUser() {
-        return "createUser";
+
+    public Response createUser(UserBO user) {
+        CreateUserService service = new CreateUserService(user);
+        ErrorCode status = service.execute();
+        return service.getResponse();
     }
 
-    public String getUserById(String id) {
-        return "getUserById";
+    public Response getUserById(String id) {
+        GetUserByIDService service = new GetUserByIDService(id);
+        ErrorCode status = service.execute();
+        return service.getResponse();
     }
 
-    public String updateUser() {
-        return "updateUser";
+    public Response updateUser(UserBO user) {
+        UpdateUserService service = new UpdateUserService(user);
+        ErrorCode status = service.execute();
+        return service.getResponse();
     }
 }

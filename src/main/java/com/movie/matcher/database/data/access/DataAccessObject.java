@@ -1,5 +1,6 @@
 package com.movie.matcher.database.data.access;
 
+import com.movie.matcher.bean.BusinessObject;
 import com.movie.matcher.bean.MovieBO;
 import com.movie.matcher.configuration.hibernate.SessionFactorySingelton;
 import com.movie.matcher.definitions.ErrorCode;
@@ -10,18 +11,18 @@ import org.hibernate.query.Query;
 import java.util.List;
 
 /**
- * MovieDAO - control all table operation for MOVIE_S table.
+ * DataAccessObject - control all table operation for MOVIE_S table.
  */
-public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
+public class DataAccessObject implements DataAccessObjectInterface<BusinessObject> {
 
 
     protected SessionFactorySingelton sessionFactory;
-    public final static Logger LOG = Logger.getLogger(MovieDAO.class);
-    public final static String CLASS_NAME = "MovieDAO";
+    public final static Logger LOG = Logger.getLogger(DataAccessObject.class);
+    public final static String CLASS_NAME = "DataAccessObject";
     private Session session;
     private static final int NUMBER_OF_MOVIES_TO_DISPLAY=20;
 
-    public MovieDAO() {
+    public DataAccessObject() {
         openSingeltonSessionFactory();
     }
 
@@ -43,7 +44,7 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
         return ErrorCode.SUCCESS;
     }
 
-    public ErrorCode save(MovieBO movieBO) {
+    public ErrorCode save(BusinessObject businessObject) {
 
         session = sessionFactory.getSessionFactory().openSession();
         String methodName ="::save ";
@@ -51,13 +52,13 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
         {
 
             session.beginTransaction();
-            session.save(movieBO);
+            session.save(businessObject);
             session.getTransaction().commit();
             session.close();
         }
         catch (Exception exception)
         {
-            LOG.error(CLASS_NAME + methodName + "an error occurred during save movie : "+ movieBO.toString()
+            LOG.error(CLASS_NAME + methodName + "an error occurred during save movie : "+ businessObject.toString()
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
         }
@@ -66,20 +67,20 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
 
     }
 
-    public ErrorCode update(MovieBO movieBO) {
+    public ErrorCode update(BusinessObject businessObject) {
 
         session = sessionFactory.getSessionFactory().openSession();
         String methodName ="::update ";
         try
         {
         session.beginTransaction();
-        session.update(movieBO);
+        session.update(businessObject);
         session.getTransaction().commit();
         session.close();
         }
         catch (Exception exception)
         {
-            LOG.error(CLASS_NAME + methodName + "an error occurred during update movie : "+ movieBO.toString()
+            LOG.error(CLASS_NAME + methodName + "an error occurred during update movie : "+ businessObject.toString()
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
         }
@@ -87,20 +88,20 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
         return ErrorCode.SUCCESS;
     }
 
-    public ErrorCode delete(MovieBO movieBO) {
+    public ErrorCode delete(BusinessObject businessObject) {
 
         session = sessionFactory.getSessionFactory().openSession();
         String methodName ="::delete ";
         try
         {
         session.beginTransaction();
-        session.delete(movieBO);
+        session.delete(businessObject);
         session.getTransaction().commit();
         session.close();
         }
         catch (Exception exception)
         {
-            LOG.error(CLASS_NAME + methodName + "an error occurred during delete movie : "+ movieBO.toString()
+            LOG.error(CLASS_NAME + methodName + "an error occurred during delete movie : "+ businessObject.toString()
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
         }
@@ -108,14 +109,14 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
         return ErrorCode.SUCCESS;
     }
 
-    public MovieBO get(String className, String id) {
+    public BusinessObject get(String className, String id) {
 
         String methodName ="::get ";
-        MovieBO movieBO=null;
+        BusinessObject businessObject=null;
         try
         {
         session = sessionFactory.getSessionFactory().openSession();
-        movieBO= (MovieBO) session.get(className,id);
+        businessObject= (BusinessObject)  session.get(className,id);
         session.close();
         }
         catch (Exception exception)
@@ -123,7 +124,7 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
             LOG.error(CLASS_NAME + methodName + "an error occurred during get of movieID:." + id +"\nException :+\n"+  exception);
         }
 
-        return movieBO;
+        return businessObject;
     }
 
     public SessionFactorySingelton getSessionFactorySingelton() {
@@ -131,39 +132,39 @@ public class MovieDAO implements DataAccessObjectInterface<MovieBO> {
     }
 
 
-    public MovieBO runQuery(String query) {
+    public BusinessObject runQuery(String query) {
         session = sessionFactory.getSessionFactory().openSession();
         String methodName ="::SessionFactorySingelton ";
-        MovieBO movie=null;
+        BusinessObject businessObject=null;
         try
         {
             Query hibernatQuery= session.createQuery(query);
-            movie = (MovieBO) hibernatQuery.list();
+            businessObject = (MovieBO) hibernatQuery.list();
         }
         catch (Exception exception)
         {
             LOG.error(CLASS_NAME + methodName + "an error occurred during query :" + query + ".\nNException:\n" + exception);
         }
 
-            return movie;
+            return businessObject;
     }
 
-    public List<MovieBO> runQueryWithMultiResult(String query) {
+    public List<BusinessObject> runQueryWithMultiResult(String query) {
         session = sessionFactory.getSessionFactory().openSession();
         String methodName ="::runQueryWithMultiResult ";
-        List<MovieBO>  movies=null;
+        List<BusinessObject>  businessObject=null;
         try
         {
             Query hibernatQuery= session.createQuery(query);
             hibernatQuery.setMaxResults(NUMBER_OF_MOVIES_TO_DISPLAY);
-             movies = hibernatQuery.list();
+            businessObject = hibernatQuery.list();
         }
         catch (Exception exception)
         {
             LOG.error(CLASS_NAME + methodName + "an error occurred during query :" + query + ".\nException:\n" + exception);
         }
 
-        return movies;
+        return businessObject;
     }
 
 }

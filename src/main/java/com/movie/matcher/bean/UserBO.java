@@ -42,6 +42,11 @@ public class UserBO extends BusinessObject {
     @Column(name="USER_AGE")
     private float userAge;
 
+
+    public UserBO() {
+        this.userID = null;
+    }
+
     public UserBO(String userID) {
         this.userID = userID;
     }

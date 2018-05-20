@@ -1,8 +1,8 @@
 package com.movie.matcher.service.movie;
 
 import com.movie.matcher.bean.MovieBO;
-import com.movie.matcher.database.controller.Controler;
-import com.movie.matcher.database.data.access.MovieDAO;
+import com.movie.matcher.database.controller.Controller;
+import com.movie.matcher.database.data.access.DataAccessObject;
 import com.movie.matcher.definitions.ErrorCode;
 import com.movie.matcher.definitions.ErrorValidation;
 import com.movie.matcher.service.BaseService;
@@ -33,8 +33,8 @@ public class GetMovieByIDService extends BaseService{
         String methodName = "::executeImpl ";
 
         LOG.info(CLASS_NAME + methodName + "start.");
-        MovieDAO movieDAO = new MovieDAO();
-        Controler controller = new Controler(movieDAO);
+        DataAccessObject dataAccessObject = new DataAccessObject();
+        Controller controller = new Controller(dataAccessObject);
         movie = (MovieBO) controller.getByID(MovieBO.class.getName(),id);
 
         if(movie==null)

@@ -1,8 +1,6 @@
 package com.movie.matcher.web.interfaces;
 
 import com.movie.matcher.bean.MovieBO;
-import com.movie.matcher.database.data.access.MovieDAO;
-import com.movie.matcher.definitions.ErrorCode;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
