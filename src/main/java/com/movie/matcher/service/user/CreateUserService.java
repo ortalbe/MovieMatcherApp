@@ -5,6 +5,7 @@ import com.movie.matcher.database.controller.Controller;
 import com.movie.matcher.database.data.access.DataAccessObject;
 import com.movie.matcher.definitions.ErrorCode;
 import com.movie.matcher.definitions.ErrorValidation;
+import com.movie.matcher.definitions.Utils;
 import com.movie.matcher.service.BaseService;
 import org.apache.log4j.Logger;
 
@@ -21,11 +22,15 @@ public class CreateUserService extends BaseService{
     private static final String CLASS_NAME = "CreateUserService";
 
     public CreateUserService(UserBO user) {
+
         this.user = user;
     }
 
     public void inputMapping() {
-
+        if(Utils.isNullOrEmpty(user.getUserID()))
+        {
+            user.setUserID(user.getUserEmail());
+        }
     }
 
     protected ErrorCode executeImpl() {
@@ -38,7 +43,14 @@ public class CreateUserService extends BaseService{
 
         Controller controller = new Controller(dataAccess);
         status = controller.create(user);
-        if(ErrorCode.ERROR.equals(status))
+        if(ErrorCode.EXIST_ENTRY.equals(status)) {
+            String errorMessage = " could not create user entry. User already exist.";
+            LOG.error(CLASS_NAME + methodName + errorMessage + user);
+            ErrorValidation errorValidation = new ErrorValidation(ErrorCode.ERROR, errorMessage);
+            response = Response.ok(errorValidation).build();
+            return ErrorCode.ERROR;
+        }
+        else if(ErrorCode.ERROR.equals(status))
         {
             String errorMessage =  " could not create user entry. please check hibernate transaction in the log.";
             LOG.error(CLASS_NAME + methodName + errorMessage +user);

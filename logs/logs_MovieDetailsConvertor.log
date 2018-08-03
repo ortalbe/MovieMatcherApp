@@ -1,0 +1,1717 @@
+2018-05-20 21:11:42 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-20 21:11:43 INFO  MovieDAO:33 - MovieDAO::openSingeltonSessionFactory  open session factory.
+2018-05-20 21:11:43 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-20 21:11:43 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-20 21:11:43 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-20 21:11:44 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-20 21:11:44 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-20 21:11:44 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-20 21:11:44 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-20 21:11:44 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-20 21:11:44 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-20 21:11:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-20 21:11:44 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-20 21:11:44 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@4e36048b
+2018-05-20 21:11:44 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-20 21:11:44 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@3a0de8f1 after already scoped org.hibernate.internal.SessionFactoryImpl@3a0de8f1
+2018-05-20 21:11:44 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: com.movie.matcher.bean.UserBO (class must be instantiated by Interceptor)
+2018-05-20 21:11:45 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ec2e75b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-20 21:11:45 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-20 21:34:55 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-20 21:34:58 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 21:34:58 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-20 21:34:58 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-20 21:34:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-20 21:34:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-20 21:35:00 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-20 21:35:00 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-20 21:35:00 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-20 21:35:00 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-20 21:35:00 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-20 21:35:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-20 21:35:00 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-20 21:35:01 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6041b2f0
+2018-05-20 21:35:02 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-20 21:35:02 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@40a30de1 after already scoped org.hibernate.internal.SessionFactoryImpl@40a30de1
+2018-05-20 21:35:02 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: com.movie.matcher.bean.UserBO (class must be instantiated by Interceptor)
+2018-05-20 21:35:04 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@547dd524] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-20 21:35:37 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-20 21:36:11 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-20 21:36:12 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 21:36:13 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-20 22:04:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-05-20 22:04:13 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:04:13 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-20 22:04:13 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-20 22:04:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-20 22:04:13 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-20 22:04:14 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-20 22:04:14 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-20 22:04:14 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-20 22:04:14 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-20 22:04:14 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-20 22:04:14 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-20 22:04:14 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-20 22:04:14 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@21395a07
+2018-05-20 22:04:14 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-20 22:04:14 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@267d5e95 after already scoped org.hibernate.internal.SessionFactoryImpl@267d5e95
+2018-05-20 22:04:14 INFO  PojoInstantiator:47 - HHH000182: No default (no-argument) constructor for class: com.movie.matcher.bean.UserBO (class must be instantiated by Interceptor)
+2018-05-20 22:04:15 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@160e64fa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-20 22:04:16 ERROR DataAccessObject:124 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-05-20 22:04:16 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-05-20 22:04:16 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-05-20 22:07:34 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:07:34 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-20 22:07:34 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-20 22:07:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-20 22:07:34 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-20 22:07:34 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-20 22:07:34 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-20 22:07:34 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-20 22:07:34 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-20 22:07:34 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-20 22:07:34 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-20 22:07:35 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-20 22:07:35 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@174eb77
+2018-05-20 22:07:35 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-20 22:07:35 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@55a2fa59 after already scoped org.hibernate.internal.SessionFactoryImpl@55a2fa59
+2018-05-20 22:07:35 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d0e0239] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-20 22:07:36 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-20 22:07:36 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-05-20 22:08:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-05-20 22:08:11 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:08:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-20 22:08:48 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:08:48 INFO  UpdateUserService:37 - UpdateUserService::executeImpl start.
+2018-05-20 22:08:48 INFO  UpdateUserService:49 - UpdateUserService::executeImpl finished successfully.
+2018-05-20 22:08:59 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-05-20 22:09:02 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:09:04 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-20 22:13:03 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:13:03 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-20 22:13:03 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-05-20 22:14:53 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-20 22:14:53 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-20 22:14:53 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-05-27 22:41:58 INFO  GetMoviesService:38 - GetMoviesService::executeImpl start.
+2018-05-27 22:41:58 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 22:41:58 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-27 22:41:59 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-27 22:41:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-27 22:41:59 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-27 22:41:59 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-27 22:41:59 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-27 22:41:59 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-27 22:41:59 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-27 22:41:59 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-27 22:41:59 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-27 22:41:59 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-27 22:41:59 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1d95e362
+2018-05-27 22:42:00 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-27 22:42:00 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@f2b4403 after already scoped org.hibernate.internal.SessionFactoryImpl@f2b4403
+2018-05-27 22:42:00 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2488456a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-27 22:42:00 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-27 22:42:00 INFO  GetMoviesService:54 - GetMoviesService::executeImpl finished successfully.
+2018-05-27 22:42:10 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 22:42:10 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 22:42:10 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-05-27 22:42:10 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh4) already exists.
+2018-05-27 22:42:10 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-05-27 22:42:10 ERROR DataAccessObject:61 - DataAccessObject::save an error occurred during save movie : com.movie.matcher.bean.UserBO@1f4407d1
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-05-27 22:42:10 ERROR CreateUserService:44 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@1f4407d1
+2018-05-27 23:09:35 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:09:35 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:10:23 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:10:23 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:10:23 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-05-27 23:11:21 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:11:21 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:13:44 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:13:44 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:14:28 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:14:28 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:14:48 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:14:48 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:15:42 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-27 23:15:42 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-05-27 23:15:42 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-05-29 00:28:39 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-29 00:28:39 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-29 00:28:39 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-29 00:28:50 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-29 00:28:50 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-29 00:28:50 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-29 00:30:01 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-29 00:30:01 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-29 00:30:01 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:00:09 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:00:09 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:00:09 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:00:28 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:00:28 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:00:28 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:00:29 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:00:29 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:00:29 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:03 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:03 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:03 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:06 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:06 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:06 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:07 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:07 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:07 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:24 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:24 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:24 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:25 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:25 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:25 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:03:50 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:03:50 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:03:50 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:04:00 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:04:00 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:04:00 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:04:33 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:04:33 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:04:33 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:06:48 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:06:51 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:06:51 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-30 11:06:51 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-30 11:06:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-30 11:06:52 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-30 11:06:53 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-30 11:06:53 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-30 11:06:53 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-30 11:06:53 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-30 11:06:53 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-30 11:06:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-30 11:06:53 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-30 11:06:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6e1307e5
+2018-05-30 11:06:55 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-30 11:06:55 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@5eaa5bee after already scoped org.hibernate.internal.SessionFactoryImpl@5eaa5bee
+2018-05-30 11:06:57 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@26f071a2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-30 11:13:21 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:13:30 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:13:34 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:13:56 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:18:25 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:18:25 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:18:25 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:19:03 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:19:03 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:19:03 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-30 11:19:03 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-30 11:19:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-30 11:19:04 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-30 11:19:04 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-30 11:19:04 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-30 11:19:04 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-30 11:19:04 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-30 11:19:04 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-30 11:19:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-30 11:19:04 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-30 11:19:04 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@478ec201
+2018-05-30 11:19:04 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-30 11:19:04 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@1dee12fd after already scoped org.hibernate.internal.SessionFactoryImpl@1dee12fd
+2018-05-30 11:19:05 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1ac878ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-30 11:19:05 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:19:05 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:19:05 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:19:05 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:22:49 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:22:49 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:22:49 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:24:33 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:24:33 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:24:33 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-30 11:24:33 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-30 11:24:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-30 11:24:33 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-30 11:24:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-30 11:24:33 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-30 11:24:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-30 11:24:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-30 11:24:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-30 11:24:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-30 11:24:33 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-30 11:24:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@b7d055b
+2018-05-30 11:24:34 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-30 11:24:34 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@39d631ae after already scoped org.hibernate.internal.SessionFactoryImpl@39d631ae
+2018-05-30 11:24:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33936069] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-30 11:24:34 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:28:53 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:28:54 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:28:55 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:29:40 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:29:40 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:29:40 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-05-30 11:29:40 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-05-30 11:29:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-05-30 11:29:40 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-05-30 11:29:40 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-30 11:29:40 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-05-30 11:29:40 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-30 11:29:40 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-05-30 11:29:40 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-30 11:29:40 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-05-30 11:29:40 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-30 11:29:40 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2dcb0e17
+2018-05-30 11:29:41 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-05-30 11:29:41 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@30895857 after already scoped org.hibernate.internal.SessionFactoryImpl@30895857
+2018-05-30 11:29:41 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@524f6887] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-05-30 11:29:41 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:32:13 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:32:13 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:32:13 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:34:43 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:34:43 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:34:43 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-05-30 11:35:55 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-05-30 11:35:55 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-05-30 11:35:55 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:35:15 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:35:16 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:35:16 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 14:35:16 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 14:35:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 14:35:17 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 14:35:18 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 14:35:18 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 14:35:18 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 14:35:18 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 14:35:18 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 14:35:18 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 14:35:19 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 14:35:19 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@975dcb2
+2018-06-01 14:35:20 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-01 14:35:20 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@d02b3e7 after already scoped org.hibernate.internal.SessionFactoryImpl@d02b3e7
+2018-06-01 14:35:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@8730d37] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-01 14:36:06 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:36:06 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:36:06 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:36:07 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:36:08 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:36:08 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:36:08 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:36:08 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:36:08 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:36:08 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:36:20 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:36:21 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:36:22 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:39:57 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:39:58 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:39:58 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:40:42 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:40:42 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:40:42 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:41:22 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:41:22 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:41:22 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 14:41:22 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 14:41:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 14:41:22 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 14:41:22 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 14:41:22 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 14:41:22 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 14:41:22 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 14:41:22 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 14:41:22 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 14:41:22 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 14:41:22 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@377e8229
+2018-06-01 14:41:23 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-01 14:41:23 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@4492f728 after already scoped org.hibernate.internal.SessionFactoryImpl@4492f728
+2018-06-01 14:41:23 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b1844c8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-01 14:41:23 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:41:35 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:41:35 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:41:35 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:41:36 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:41:36 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:41:36 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:42:26 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:42:26 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:42:26 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:42:48 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:42:48 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:42:48 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:45:28 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:45:28 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:45:28 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:46:49 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:46:49 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:46:49 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:47:09 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:47:09 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:47:09 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 14:48:39 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 14:48:39 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 14:48:39 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 16:28:05 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 16:28:05 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:28:05 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 16:28:57 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 16:28:57 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:28:57 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 16:29:30 INFO  GetMovieByIDService:35 - GetMovieByIDService::executeImpl start.
+2018-06-01 16:29:30 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:29:30 INFO  GetMovieByIDService:52 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-01 16:33:00 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:33:00 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 16:33:00 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 16:33:00 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh4) already exists.
+2018-06-01 16:33:00 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 16:33:00 ERROR DataAccessObject:61 - DataAccessObject::save an error occurred during save movie : com.movie.matcher.bean.UserBO@49680eb4
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 16:33:00 ERROR CreateUserService:44 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@49680eb4
+2018-06-01 16:33:30 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:33:30 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 16:33:30 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 16:33:30 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh4) already exists.
+2018-06-01 16:33:30 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 16:33:30 ERROR DataAccessObject:61 - DataAccessObject::save an error occurred during save movie : com.movie.matcher.bean.UserBO@7bd5ebee
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 16:33:30 ERROR CreateUserService:44 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@7bd5ebee
+2018-06-01 16:33:39 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:33:39 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 16:33:39 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 16:33:39 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh4) already exists.
+2018-06-01 16:33:39 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 16:33:39 ERROR DataAccessObject:61 - DataAccessObject::save an error occurred during save movie : com.movie.matcher.bean.UserBO@19703489
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 16:33:39 ERROR CreateUserService:44 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@19703489
+2018-06-01 16:35:23 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 16:35:23 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 16:35:24 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 16:35:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 16:35:24 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 16:35:25 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 16:35:25 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 16:35:25 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 16:35:25 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 16:35:25 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 16:35:25 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 16:35:26 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 16:35:26 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@22416f4b
+2018-06-01 16:35:27 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-01 16:35:27 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@70f7a5d3 after already scoped org.hibernate.internal.SessionFactoryImpl@70f7a5d3
+2018-06-01 16:35:29 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6f563b95] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-01 16:35:47 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 16:35:58 INFO  CreateUserService:49 - CreateUserService::executeImpl finished successfully.
+2018-06-01 18:23:37 INFO  DataAccessObject:34 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:23:38 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:24:51 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:24:51 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh432) already exists.
+2018-06-01 18:24:51 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:25:15 ERROR DataAccessObject:61 - DataAccessObject::save an error occurred during save movie : com.movie.matcher.bean.UserBO@4b868a1a
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:27:28 ERROR CreateUserService:44 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@4b868a1a
+2018-06-01 18:33:04 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:33:04 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 18:33:05 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 18:33:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 18:33:06 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 18:33:06 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 18:33:06 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 18:33:06 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 18:33:06 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 18:33:06 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 18:33:06 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 18:33:07 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 18:33:07 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@9ac857d
+2018-06-01 18:33:08 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-01 18:33:08 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@649f2260 after already scoped org.hibernate.internal.SessionFactoryImpl@649f2260
+2018-06-01 18:33:10 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b5725da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-01 18:33:11 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:33:11 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:33:11 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh432) already exists.
+2018-06-01 18:33:11 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:33:11 ERROR DataAccessObject:68 - DataAccessObject::save an error occurred during save  : com.movie.matcher.bean.UserBO@7b2eecc8
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:33:11 ERROR CreateUserService:51 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@7b2eecc8
+2018-06-01 18:33:53 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:33:53 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:33:53 INFO  CreateUserService:56 - CreateUserService::executeImpl finished successfully.
+2018-06-01 18:37:26 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:37:27 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:37:33 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:37:33 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh438) already exists.
+2018-06-01 18:37:33 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:40:35 ERROR DataAccessObject:68 - DataAccessObject::save an error occurred during save  : com.movie.matcher.bean.UserBO@7fd08602
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:41:04 ERROR CreateUserService:51 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@7fd08602
+2018-06-01 18:41:49 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:41:49 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:41:58 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:41:58 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh438) already exists.
+2018-06-01 18:41:58 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:42:57 ERROR DataAccessObject:68 - DataAccessObject::save an error occurred during save  : com.movie.matcher.bean.UserBO@2175c67f
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:43:03 ERROR CreateUserService:51 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@2175c67f
+2018-06-01 18:43:12 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:43:13 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:43:39 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:43:39 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh438) already exists.
+2018-06-01 18:43:39 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:43:44 ERROR DataAccessObject:68 - DataAccessObject::save an error occurred during save  : com.movie.matcher.bean.UserBO@6555e7c6
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:43:45 ERROR CreateUserService:51 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@6555e7c6
+2018-06-01 18:44:09 INFO  DataAccessObject:35 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:44:10 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:44:25 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:44:25 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh438) already exists.
+2018-06-01 18:44:25 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:49:59 ERROR DataAccessObject:68 - DataAccessObject::save an error occurred during save  : com.movie.matcher.bean.UserBO@19b102c3
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:49:59 ERROR CreateUserService:51 - CreateUserService::executeImpl  could not create user entry. please check hibernate transaction in the log.com.movie.matcher.bean.UserBO@19b102c3
+2018-06-01 18:50:31 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 18:50:31 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 18:50:32 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 18:50:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 18:50:33 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 18:50:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 18:50:33 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 18:50:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 18:50:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 18:50:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 18:50:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 18:50:34 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 18:50:34 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1fab4998
+2018-06-01 18:50:35 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-01 18:50:35 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@235b65b9 after already scoped org.hibernate.internal.SessionFactoryImpl@235b65b9
+2018-06-01 18:50:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60ef76b0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-01 18:50:39 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 18:50:45 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-01 18:50:45 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh438) already exists.
+2018-06-01 18:50:45 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-01 18:50:49 ERROR DataAccessObject:64 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@24306a01
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-01 18:50:56 ERROR CreateUserService:43 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@24306a01
+2018-06-01 19:16:38 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 19:16:38 INFO  CreateUserService:37 - CreateUserService::executeImpl start.
+2018-06-01 19:16:38 ERROR DataAccessObject:70 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@5bd56049
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-01 19:16:38 INFO  CreateUserService:56 - CreateUserService::executeImpl finished successfully.
+2018-06-01 19:17:28 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 19:17:28 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 19:17:29 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-01 19:17:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-01 19:17:30 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-01 19:17:30 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 19:17:30 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 19:17:30 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 19:17:30 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 19:17:30 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 19:17:31 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 19:17:31 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 19:17:31 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@59888858
+2018-06-01 19:17:32 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.movie.matcher.bean.UserBO
+2018-06-01 19:17:32 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.movie.matcher.bean.UserBO
+2018-06-01 19:17:32 ERROR DataAccessObject:42 - DataAccessObject::openSingeltonSessionFactory  and error occurred while opening session
+org.hibernate.MappingException: Composite-id class must implement Serializable: com.movie.matcher.bean.UserBO
+	at org.hibernate.mapping.RootClass.checkCompositeIdentifier(RootClass.java:293)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:276)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:347)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:466)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.<init>(SessionFactorySingelton.java:21)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.getInstance(SessionFactorySingelton.java:27)
+	at com.movie.matcher.database.data.access.DataAccessObject.openSingeltonSessionFactory(DataAccessObject.java:37)
+	at com.movie.matcher.database.data.access.DataAccessObject.<init>(DataAccessObject.java:28)
+	at com.movie.matcher.service.user.CreateUserService.executeImpl(CreateUserService.java:40)
+	at com.movie.matcher.service.BaseService.execute(BaseService.java:18)
+	at com.movie.matcher.web.services.user.UserAdapterWebService.createUser(UserAdapterWebService.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-06-01 19:17:33 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-01 19:18:14 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 19:18:14 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 19:18:14 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 19:18:14 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 19:18:14 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 19:18:14 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 19:18:14 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 19:18:14 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 19:18:15 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 19:18:15 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@59888858
+2018-06-01 19:18:15 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.movie.matcher.bean.UserBO
+2018-06-01 19:18:15 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.movie.matcher.bean.UserBO
+2018-06-01 19:18:15 ERROR DataAccessObject:42 - DataAccessObject::openSingeltonSessionFactory  and error occurred while opening session
+org.hibernate.MappingException: Composite-id class must implement Serializable: com.movie.matcher.bean.UserBO
+	at org.hibernate.mapping.RootClass.checkCompositeIdentifier(RootClass.java:293)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:276)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:347)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:466)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.<init>(SessionFactorySingelton.java:21)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.getInstance(SessionFactorySingelton.java:27)
+	at com.movie.matcher.database.data.access.DataAccessObject.openSingeltonSessionFactory(DataAccessObject.java:37)
+	at com.movie.matcher.database.data.access.DataAccessObject.<init>(DataAccessObject.java:28)
+	at com.movie.matcher.service.user.CreateUserService.executeImpl(CreateUserService.java:40)
+	at com.movie.matcher.service.BaseService.execute(BaseService.java:18)
+	at com.movie.matcher.web.services.user.UserAdapterWebService.createUser(UserAdapterWebService.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-06-01 19:18:15 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-01 19:18:40 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-01 19:18:40 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-01 19:18:40 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-01 19:18:40 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-01 19:18:40 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-01 19:18:40 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-01 19:18:40 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-01 19:18:40 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-01 19:18:41 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-01 19:18:41 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@59888858
+2018-06-01 19:18:41 WARN  RootClass:287 - HHH000038: Composite-id class does not override equals(): com.movie.matcher.bean.UserBO
+2018-06-01 19:18:41 WARN  RootClass:290 - HHH000039: Composite-id class does not override hashCode(): com.movie.matcher.bean.UserBO
+2018-06-01 19:18:41 ERROR DataAccessObject:42 - DataAccessObject::openSingeltonSessionFactory  and error occurred while opening session
+org.hibernate.MappingException: Composite-id class must implement Serializable: com.movie.matcher.bean.UserBO
+	at org.hibernate.mapping.RootClass.checkCompositeIdentifier(RootClass.java:293)
+	at org.hibernate.mapping.RootClass.validate(RootClass.java:276)
+	at org.hibernate.boot.internal.MetadataImpl.validate(MetadataImpl.java:347)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:466)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.<init>(SessionFactorySingelton.java:21)
+	at com.movie.matcher.configuration.hibernate.SessionFactorySingelton.getInstance(SessionFactorySingelton.java:27)
+	at com.movie.matcher.database.data.access.DataAccessObject.openSingeltonSessionFactory(DataAccessObject.java:37)
+	at com.movie.matcher.database.data.access.DataAccessObject.<init>(DataAccessObject.java:28)
+	at com.movie.matcher.service.user.CreateUserService.executeImpl(CreateUserService.java:40)
+	at com.movie.matcher.service.BaseService.execute(BaseService.java:18)
+	at com.movie.matcher.web.services.user.UserAdapterWebService.createUser(UserAdapterWebService.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-06-01 19:18:41 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-02 09:00:32 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-02 09:00:32 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-02 09:00:32 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-02 09:00:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-02 09:00:33 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-02 09:00:33 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-02 09:00:33 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-02 09:00:33 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-02 09:00:33 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-02 09:00:33 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-02 09:00:33 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-02 09:00:33 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-02 09:00:33 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@34ae6cad
+2018-06-02 09:00:34 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-02 09:00:34 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@7a0801b5 after already scoped org.hibernate.internal.SessionFactoryImpl@7a0801b5
+2018-06-02 09:00:34 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@566da79d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-02 09:00:34 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-02 09:00:34 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-02 09:00:41 INFO  DataAccessObject:36 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-02 09:00:41 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-02 09:00:41 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-02 09:00:41 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(talibh201@gmail.com) already exists.
+2018-06-02 09:00:41 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-02 09:00:41 ERROR DataAccessObject:64 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@6a27b378
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-02 09:00:41 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@6a27b378
+2018-06-04 17:30:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-04 17:30:23 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-04 17:30:23 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-04 17:30:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-04 17:30:24 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-04 17:30:25 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-04 17:30:25 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-04 17:30:25 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-04 17:30:25 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-04 17:30:25 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-04 17:30:25 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-04 17:30:26 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-04 17:30:26 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5dae5711
+2018-06-04 17:30:27 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-04 17:30:27 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@11583a38 after already scoped org.hibernate.internal.SessionFactoryImpl@11583a38
+2018-06-04 17:30:29 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@758a5217] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-04 17:30:30 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-04 17:30:30 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@4049842a
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-04 17:30:30 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:23:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:23:51 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-12 20:23:51 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-12 20:23:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-12 20:23:51 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-12 20:23:51 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-12 20:23:51 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-12 20:23:51 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-12 20:23:51 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-12 20:23:51 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-12 20:23:51 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-12 20:23:52 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-12 20:23:52 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@12d21f40
+2018-06-12 20:23:52 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-12 20:23:52 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@518634cd after already scoped org.hibernate.internal.SessionFactoryImpl@518634cd
+2018-06-12 20:23:52 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3896f0b5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-12 20:23:52 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:23:53 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:28:12 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:28:12 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:28:12 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-12 20:28:12 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-12 20:28:12 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-12 20:28:12 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@318e61d7
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-12 20:28:12 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@318e61d7
+2018-06-12 20:35:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:35:09 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:35:09 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-12 20:35:09 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-12 20:35:09 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-12 20:35:09 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@2c0ab8ac
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-12 20:35:09 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@2c0ab8ac
+2018-06-12 20:37:07 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:37:07 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:37:07 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@34fb52e2
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:37:07 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:37:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:37:11 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:37:11 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@600fbd56
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:37:11 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:37:20 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:37:20 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:37:20 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@241b95b7
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:37:20 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:40:50 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:40:50 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:40:50 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@21244658
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:40:50 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:43:29 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:43:29 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:43:29 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@481ae8a8
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:43:29 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 20:48:58 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 20:48:58 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 20:48:58 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@7e6e433a
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 20:48:58 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 21:05:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 21:05:32 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 21:05:32 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@37eda358
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 21:05:32 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-12 21:05:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-12 21:05:54 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-12 21:05:54 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@2adc7f44
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-12 21:05:54 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-16 11:10:04 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 11:10:04 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-16 11:10:04 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-16 11:10:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-16 11:10:04 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-16 11:10:04 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-16 11:10:04 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-16 11:10:04 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-16 11:10:04 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-16 11:10:04 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-16 11:10:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-16 11:10:05 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-16 11:10:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@13610186
+2018-06-16 11:10:05 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-16 11:10:05 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@fa9d679 after already scoped org.hibernate.internal.SessionFactoryImpl@fa9d679
+2018-06-16 11:10:05 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6af74d50] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-16 11:10:05 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 11:10:06 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-16 11:19:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 11:19:51 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 11:19:51 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-16 15:16:03 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 15:16:03 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 15:16:03 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 15:16:03 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-16 15:16:03 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 15:16:03 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@674f2b79
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 15:16:03 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@674f2b79
+2018-06-16 15:19:12 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 15:19:12 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 15:19:12 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@1d32441e
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-16 15:19:12 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-16 15:24:21 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 15:24:21 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 15:24:21 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 15:24:21 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 15:24:21 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 15:24:21 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@b52768e
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 15:24:21 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@b52768e
+2018-06-16 16:02:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 16:02:01 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 16:02:01 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 16:02:01 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-16 16:02:01 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 16:02:01 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@4a803962
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 16:02:01 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@4a803962
+2018-06-16 16:02:16 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 16:02:16 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 16:02:16 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 16:02:16 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-16 16:02:16 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 16:02:16 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@7ceed69d
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 16:02:16 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@7ceed69d
+2018-06-16 16:02:18 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 16:02:18 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 16:02:18 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 16:02:18 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-16 16:02:18 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 16:02:18 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@700caa4d
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 16:02:18 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@700caa4d
+2018-06-16 16:02:18 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 16:02:18 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 16:02:18 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 16:02:18 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com) already exists.
+2018-06-16 16:02:18 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 16:02:18 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@576be663
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 16:02:18 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@576be663
+2018-06-16 17:27:41 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:27:41 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:27:41 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:27:41 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:27:41 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:27:41 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@4f05a4d2
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:27:41 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@4f05a4d2
+2018-06-16 17:35:45 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:35:45 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:35:45 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:35:45 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:35:45 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:35:45 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@3de77f02
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:35:45 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@3de77f02
+2018-06-16 17:36:28 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:36:28 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:36:28 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:36:28 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:36:28 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:36:28 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@44e7a417
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:36:28 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@44e7a417
+2018-06-16 17:36:31 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:36:31 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:36:31 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:36:31 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:36:31 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:36:31 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@5d938d13
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:36:31 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@5d938d13
+2018-06-16 17:36:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:36:32 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:36:32 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:36:32 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:36:32 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:36:32 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@7ef0ee84
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:36:32 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@7ef0ee84
+2018-06-16 17:37:15 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:37:15 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:37:15 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-16 17:37:15 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(tal1@gmail.com) already exists.
+2018-06-16 17:37:15 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-16 17:37:15 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@13f5b9c8
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-16 17:37:15 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@13f5b9c8
+2018-06-16 17:43:53 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-16 17:43:53 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-16 17:43:53 ERROR DataAccessObject:71 - DataAccessObject::save persistence exception occurred during save : com.movie.matcher.bean.UserBO@40464148
+Exception:
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.movie.matcher.bean.UserBO
+2018-06-16 17:43:53 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-17 19:39:57 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-17 19:39:57 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-17 19:39:57 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-17 19:39:57 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-17 19:39:58 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-17 19:39:58 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-17 19:39:58 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-17 19:39:58 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-17 19:39:58 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-17 19:39:58 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-17 19:39:58 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-17 19:39:58 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-17 19:39:58 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@805b950
+2018-06-17 19:39:58 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-17 19:39:59 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@52cbfa52 after already scoped org.hibernate.internal.SessionFactoryImpl@52cbfa52
+2018-06-17 19:39:59 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5a91bd7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-17 19:39:59 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-17 19:39:59 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-17 19:56:40 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-17 19:56:40 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-17 19:56:40 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-17 19:56:40 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com44) already exists.
+2018-06-17 19:56:40 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-17 19:56:40 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@71dc8fb3
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-17 19:56:40 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@71dc8fb3
+2018-06-17 19:56:47 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-17 19:56:47 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-17 19:56:47 WARN  SqlExceptionHelper:129 - SQL Error: 0, SQLState: 23505
+2018-06-17 19:56:47 ERROR SqlExceptionHelper:131 - ERROR: duplicate key value violates unique constraint "app_users_pkey"
+  Detail: Key (user_id)=(ta@gmail.com44) already exists.
+2018-06-17 19:56:47 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2018-06-17 19:56:47 ERROR DataAccessObject:65 - DataAccessObject::save constraint violation, entry exist already  : com.movie.matcher.bean.UserBO@1d32441e
+Exception:
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-06-17 19:56:47 ERROR CreateUserService:48 - CreateUserService::executeImpl  could not create user entry. User already exist.com.movie.matcher.bean.UserBO@1d32441e
+2018-06-17 19:57:16 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-17 19:57:16 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-17 19:57:16 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-17 20:43:33 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-17 20:43:33 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-06-17 20:43:33 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-06-25 22:07:23 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-25 22:07:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-25 22:07:23 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-25 22:07:24 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-25 22:07:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-25 22:07:25 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-25 22:07:26 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-25 22:07:26 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-25 22:07:26 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-25 22:07:26 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-25 22:07:26 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-25 22:07:26 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-25 22:07:26 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-25 22:07:26 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@676596fe
+2018-06-25 22:07:28 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-25 22:07:28 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@46075ffa after already scoped org.hibernate.internal.SessionFactoryImpl@46075ffa
+2018-06-25 22:07:30 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@267cdc0f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-25 22:07:31 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:28:22 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:28:22 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:28:22 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-06-30 17:28:22 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-06-30 17:28:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-06-30 17:28:23 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-06-30 17:28:23 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-30 17:28:23 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-06-30 17:28:23 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-06-30 17:28:23 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-06-30 17:28:23 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-30 17:28:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-06-30 17:28:23 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-06-30 17:28:23 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@516d4ff0
+2018-06-30 17:28:23 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-06-30 17:28:23 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@15adc9cf after already scoped org.hibernate.internal.SessionFactoryImpl@15adc9cf
+2018-06-30 17:28:24 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22feb233] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-06-30 17:28:24 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:28:44 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:28:44 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:28:44 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:29:02 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:29:02 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:29:02 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:30:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:30:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:30:09 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:32:24 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:32:24 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:32:24 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-06-30 17:34:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-06-30 17:34:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-06-30 17:34:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-01 23:29:04 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-01 23:29:04 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-01 23:29:04 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-01 23:29:04 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-01 23:29:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-01 23:29:04 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-01 23:29:04 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-01 23:29:04 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-01 23:29:04 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-01 23:29:04 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-01 23:29:04 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-01 23:29:04 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-01 23:29:05 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-01 23:29:05 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@e12ad2b
+2018-07-01 23:29:05 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-01 23:29:05 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@4acaa82f after already scoped org.hibernate.internal.SessionFactoryImpl@4acaa82f
+2018-07-01 23:29:05 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5ce67806] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-01 23:29:06 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-01 23:55:58 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-01 23:55:58 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-01 23:55:58 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-01 23:56:32 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-01 23:56:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-01 23:56:32 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-01 23:58:01 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-01 23:58:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-01 23:58:01 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-01 23:58:06 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-01 23:58:06 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-01 23:58:06 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-02 00:09:43 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:09:43 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:09:43 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-02 00:10:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:10:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:10:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-02 00:12:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:12:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:12:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-02 00:13:01 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:13:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:13:01 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-02 00:13:01 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-02 00:13:01 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-02 00:13:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:13:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:13:11 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-02 00:13:11 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-02 00:13:11 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-02 00:14:03 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:14:03 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:14:03 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-02 00:14:03 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-02 00:14:03 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-02 00:14:40 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:14:40 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:14:40 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-02 00:14:40 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-02 00:14:40 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-02 00:18:37 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:18:37 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:18:37 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-02 00:18:37 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-02 00:18:37 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-02 00:19:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-02 00:19:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-02 00:19:09 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-03 16:18:52 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-03 16:18:52 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-03 16:18:52 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-03 16:18:52 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-03 16:18:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-03 16:18:52 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-03 16:18:52 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-03 16:18:52 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-03 16:18:52 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-03 16:18:52 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-03 16:18:52 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-03 16:18:52 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-03 16:18:53 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-03 16:18:53 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1756ee2f
+2018-07-03 16:18:53 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-03 16:18:53 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@629beb43 after already scoped org.hibernate.internal.SessionFactoryImpl@629beb43
+2018-07-03 16:18:53 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2cec32a9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-03 16:18:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-03 16:19:23 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-03 16:19:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-03 16:19:23 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:11:59 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:12:00 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:12:00 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = undefined not exist in APP_USERS
+2018-07-06 14:12:00 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: undefined
+2018-07-06 14:12:56 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:12:56 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:12:56 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:27:16 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:27:16 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:27:16 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:48:37 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:48:37 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:48:37 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:52:38 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:52:38 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:52:38 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:52:55 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:52:55 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:52:55 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = ta@gmail.com48ta@gmail.com48 not exist in APP_USERS
+2018-07-06 14:52:55 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: ta@gmail.com48ta@gmail.com48
+2018-07-06 14:56:21 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:56:21 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:56:21 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 14:57:10 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 14:57:10 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 14:57:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 15:00:07 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:00:07 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:00:07 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = undefined not exist in APP_USERS
+2018-07-06 15:00:07 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: undefined
+2018-07-06 15:00:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:00:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:00:09 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = undefinedundefined not exist in APP_USERS
+2018-07-06 15:00:09 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: undefinedundefined
+2018-07-06 15:00:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:00:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:00:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 15:00:42 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:00:42 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:00:42 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = talibh201@gmail.comtalibh2@gmail.com not exist in APP_USERS
+2018-07-06 15:00:42 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: talibh201@gmail.comtalibh2@gmail.com
+2018-07-06 15:03:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:03:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:03:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 15:03:15 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 15:03:15 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 15:03:15 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = talibh2@gmail.com not exist in APP_USERS
+2018-07-06 15:03:15 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: talibh2@gmail.com
+2018-07-06 20:52:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 20:52:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 20:52:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 20:57:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 20:57:08 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 20:57:08 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-06 20:57:08 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-06 20:57:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-06 20:57:08 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-06 20:57:09 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-06 20:57:09 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-06 20:57:09 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-06 20:57:09 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-06 20:57:09 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-06 20:57:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-06 20:57:09 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-06 20:57:09 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6349b1eb
+2018-07-06 20:57:09 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-06 20:57:09 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@4058c15c after already scoped org.hibernate.internal.SessionFactoryImpl@4058c15c
+2018-07-06 20:57:10 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@8dd8538] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-06 20:57:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 20:58:22 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 20:58:22 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 20:58:22 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = undefined not exist in APP_USERS
+2018-07-06 20:58:22 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: undefined
+2018-07-06 20:58:40 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 20:58:40 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 20:58:40 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = undefined not exist in APP_USERS
+2018-07-06 20:58:40 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: undefined
+2018-07-06 20:59:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 20:59:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 20:59:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 21:01:26 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 21:01:26 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 21:01:26 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 23:48:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 23:48:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 23:48:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 23:58:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 23:58:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 23:58:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-06 23:58:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-06 23:58:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-06 23:58:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:07:57 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:07:57 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:07:57 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:13:14 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:13:14 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:13:14 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:18:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:18:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:18:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:19:06 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:19:06 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:19:06 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:19:44 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:19:44 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:19:44 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:19:57 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:19:57 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:19:57 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:20:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:20:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:20:09 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:21:13 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:21:13 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:21:13 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:21:38 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:21:38 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:21:38 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:21:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:21:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:21:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 00:22:18 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 00:22:18 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 00:22:18 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 11:38:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 11:38:08 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 11:38:08 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 11:38:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 11:38:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 11:38:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 11:38:45 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 11:38:45 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 11:38:45 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 11:58:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 11:58:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 11:58:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 11:59:11 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 11:59:11 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 11:59:11 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 12:22:27 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 12:22:27 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 12:22:27 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = ff not exist in APP_USERS
+2018-07-07 12:22:27 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: ff
+2018-07-07 13:28:59 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:28:59 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:28:59 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:29:51 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:29:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:29:51 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:30:47 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:30:47 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:30:47 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:30:53 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:30:53 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:30:53 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:31:24 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:31:24 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:31:24 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:33:53 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:33:53 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:33:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:34:10 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:34:10 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:34:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:35:01 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:35:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:35:01 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:36:23 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:36:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:36:23 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:36:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:36:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:36:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:36:40 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:36:40 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:36:40 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:37:36 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:37:36 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:37:36 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:37:55 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:37:55 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:37:56 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:37:57 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:37:57 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:37:57 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:38:01 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:38:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:38:01 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:38:02 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:38:02 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:38:02 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:38:42 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:38:42 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:38:42 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:38:52 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:38:52 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:38:52 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:38:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:38:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:38:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:40:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:40:08 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:40:08 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:40:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:40:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:40:09 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:40:13 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:40:13 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:40:13 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:46:10 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:46:10 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:46:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:46:29 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:46:29 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:46:29 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:46:51 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:46:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:46:51 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:46:59 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:46:59 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:46:59 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:48:25 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:48:25 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:48:25 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:48:26 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:48:26 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:48:26 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:49:15 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:49:15 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:49:15 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:49:23 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:49:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:49:23 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:51:10 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:51:10 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:51:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:51:12 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:51:12 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:51:12 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:51:17 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:51:17 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:51:17 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = talibh201@gmail.co not exist in APP_USERS
+2018-07-07 13:51:17 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: talibh201@gmail.co
+2018-07-07 13:51:25 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:51:25 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:51:25 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = talibh201@gmail.co not exist in APP_USERS
+2018-07-07 13:51:25 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: talibh201@gmail.co
+2018-07-07 13:52:20 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:52:20 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:52:20 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:52:21 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:52:21 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:52:21 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 13:52:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 13:52:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 13:52:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 14:02:05 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:02:05 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:02:05 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 14:02:24 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:02:24 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:02:24 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = uu not exist in APP_USERS
+2018-07-07 14:02:24 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: uu
+2018-07-07 14:02:32 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:02:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:02:32 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = uu not exist in APP_USERS
+2018-07-07 14:02:32 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: uu
+2018-07-07 14:03:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:03:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:03:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 14:04:00 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:04:00 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:04:00 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 14:05:08 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:05:08 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:05:08 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 14:05:15 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 14:05:15 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 14:05:15 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 15:15:32 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 15:15:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 15:15:32 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 15:15:38 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 15:15:38 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 15:15:38 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 15:19:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 15:19:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 15:19:39 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 15:19:46 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 15:19:46 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 15:19:46 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:42:41 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:42:41 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:42:41 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:43:13 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:43:13 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:43:13 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:45:18 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:45:18 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:45:18 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:45:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:45:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:45:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:48:51 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:48:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:48:51 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = f not exist in APP_USERS
+2018-07-07 19:48:51 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: f
+2018-07-07 19:49:32 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:49:32 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:49:32 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-07 19:55:39 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:55:39 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:55:39 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = yy not exist in APP_USERS
+2018-07-07 19:55:39 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: yy
+2018-07-07 19:55:48 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:55:48 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:55:48 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = yy not exist in APP_USERS
+2018-07-07 19:55:48 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: yy
+2018-07-07 19:55:55 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-07 19:55:55 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-07 19:55:55 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = yy not exist in APP_USERS
+2018-07-07 19:55:55 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: yy
+2018-07-11 15:38:41 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 15:38:41 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 15:38:41 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 16:42:30 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 16:42:30 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 16:42:30 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 16:42:31 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 16:42:31 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 16:42:31 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 16:42:34 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 16:42:34 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 16:42:34 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 16:53:58 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 16:53:58 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 16:53:58 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 19:06:27 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 19:06:27 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 19:06:27 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-11 19:06:43 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 19:06:43 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 19:06:43 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = ta@gmail.com7748 not exist in APP_USERS
+2018-07-11 19:06:43 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: ta@gmail.com7748
+2018-07-11 19:06:48 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-11 19:06:48 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-11 19:06:48 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = ta@gmail.com7748 not exist in APP_USERS
+2018-07-11 19:06:48 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: ta@gmail.com7748
+2018-07-20 11:29:24 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 11:29:24 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 11:29:24 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-20 11:29:24 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-20 11:29:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-20 11:29:25 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-20 11:29:25 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-20 11:29:25 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-20 11:29:25 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-20 11:29:25 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-20 11:29:25 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-20 11:29:25 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-20 11:29:25 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-20 11:29:25 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@280f34bd
+2018-07-20 11:29:26 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-20 11:29:26 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@7bc1e7e8 after already scoped org.hibernate.internal.SessionFactoryImpl@7bc1e7e8
+2018-07-20 11:29:26 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7bd82d84] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-20 11:29:26 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 11:50:37 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 11:50:37 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 11:50:37 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:03:51 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:03:51 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:03:51 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:04:41 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:04:41 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:04:41 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:05:26 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:05:26 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:05:26 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:06:54 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:06:54 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:06:54 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:08:16 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:08:16 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:08:16 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:09:49 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:09:49 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:09:49 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:10:03 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:10:03 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:10:03 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:28:58 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:28:58 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:28:58 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:42:29 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:42:29 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:42:29 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 12:57:33 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 12:57:33 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 12:57:33 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 15:48:02 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 15:48:02 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 15:48:02 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 15:49:46 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 15:49:46 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 15:49:46 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 15:57:06 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 15:57:06 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 15:57:06 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 15:58:35 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 15:58:35 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 15:58:35 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-20 16:00:27 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-20 16:00:27 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-20 16:00:27 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 10:52:23 INFO  GetMoviesService:38 - GetMoviesService::executeImpl start.
+2018-07-28 10:52:23 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 10:52:23 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-28 10:52:23 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-28 10:52:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-28 10:52:23 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-28 10:52:24 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-28 10:52:24 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-28 10:52:24 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-28 10:52:24 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-28 10:52:24 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-28 10:52:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-28 10:52:24 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-28 10:52:24 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@54c5bfec
+2018-07-28 10:52:24 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-28 10:52:24 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@2743abf5 after already scoped org.hibernate.internal.SessionFactoryImpl@2743abf5
+2018-07-28 10:52:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@41dea3ca] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-28 10:52:25 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-07-28 10:52:25 ERROR GetMoviesService:47 - GetMoviesService::executeImpl table REF_MOVIE_DETAILS  is empty 
+2018-07-28 10:52:25 INFO  GetMoviesService:50 - GetMoviesService::executeImpl no movies found at all in the DB.
+2018-07-28 10:52:41 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 10:52:41 INFO  CreateUserService:42 - CreateUserService::executeImpl start.
+2018-07-28 10:52:41 INFO  CreateUserService:61 - CreateUserService::executeImpl finished successfully.
+2018-07-28 10:53:09 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 10:53:09 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 10:53:09 ERROR DataAccessObject:148 - DataAccessObject::get an error occurred during get of movieID:.null
+Exception :+
+java.lang.IllegalArgumentException: id to load is required for loading
+2018-07-28 10:53:09 ERROR GetUserByIDService:45 - GetMovieByIDService::executeImpl User with ID = null not exist in APP_USERS
+2018-07-28 10:53:09 INFO  GetUserByIDService:48 - GetMovieByIDService::executeImpl  no User found by ID: null
+2018-07-28 10:53:36 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 10:53:36 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 10:53:36 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:05:36 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:05:36 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:05:36 INFO  SessionFactorySingelton:20 - SessionFactorySingelton::SessionFactorySingelton  session factory not initialized yet. initialize session
+2018-07-28 11:05:36 INFO  Version:46 - HHH000412: Hibernate Core {5.3.0.Final}
+2018-07-28 11:05:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-07-28 11:05:37 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2018-07-28 11:05:37 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-07-28 11:05:37 INFO  pooling:129 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/MovieMatcher]
+2018-07-28 11:05:37 INFO  pooling:138 - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-07-28 11:05:37 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2018-07-28 11:05:37 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-07-28 11:05:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2018-07-28 11:05:37 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-07-28 11:05:37 INFO  BasicTypeRegistry:159 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@a1d888b
+2018-07-28 11:05:38 INFO  beans:73 - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2018-07-28 11:05:38 WARN  TypeConfiguration$Scope:273 - HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@25426001 after already scoped org.hibernate.internal.SessionFactoryImpl@25426001
+2018-07-28 11:05:38 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5cb21046] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-07-28 11:05:38 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:12:42 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:12:42 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:12:42 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:13:52 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:13:52 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:13:52 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:13:55 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:13:55 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:13:55 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:14:01 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:14:01 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:14:01 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.
+2018-07-28 11:14:10 INFO  GetUserByIDService:36 - GetMovieByIDService::executeImpl start.
+2018-07-28 11:14:10 INFO  DataAccessObject:37 - DataAccessObject::openSingeltonSessionFactory  open session factory.
+2018-07-28 11:14:10 INFO  GetUserByIDService:53 - GetMovieByIDService::executeImpl finished successfully.

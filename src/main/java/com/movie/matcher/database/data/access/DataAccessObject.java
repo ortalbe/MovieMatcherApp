@@ -6,8 +6,10 @@ import com.movie.matcher.configuration.hibernate.SessionFactorySingelton;
 import com.movie.matcher.definitions.ErrorCode;
 import org.apache.log4j.Logger;
 import org.hibernate.Session;
+import org.hibernate.exception.ConstraintViolationException;
 import org.hibernate.query.Query;
 
+import javax.persistence.PersistenceException;
 import java.util.List;
 
 /**
@@ -25,6 +27,7 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
     public DataAccessObject() {
         openSingeltonSessionFactory();
     }
+
 
     public ErrorCode openSingeltonSessionFactory() {
 
@@ -54,13 +57,31 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
             session.beginTransaction();
             session.save(businessObject);
             session.getTransaction().commit();
-            session.close();
+
+        }
+        catch (PersistenceException exception)
+        {
+            if(exception.getCause() instanceof ConstraintViolationException) {
+                LOG.error(CLASS_NAME + methodName + "constraint violation, entry exist already  : " + businessObject.toString()
+                        + "\nException:\n" + exception);
+                return ErrorCode.EXIST_ENTRY;
+            }
+            else
+            {
+                LOG.error(CLASS_NAME + methodName + "persistence exception occurred during save : " + businessObject.toString()
+                        + "\nException:\n" + exception);
+                return ErrorCode.PERSISTENCE;
+            }
         }
         catch (Exception exception)
         {
-            LOG.error(CLASS_NAME + methodName + "an error occurred during save movie : "+ businessObject.toString()
+            LOG.error(CLASS_NAME + methodName + "an error occurred during save  : "+ businessObject.toString()
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
+        }
+
+        finally {
+            session.close();
         }
 
         return ErrorCode.SUCCESS;
@@ -76,7 +97,7 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
         session.beginTransaction();
         session.update(businessObject);
         session.getTransaction().commit();
-        session.close();
+
         }
         catch (Exception exception)
         {
@@ -84,7 +105,9 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
         }
-
+        finally {
+            session.close();
+        }
         return ErrorCode.SUCCESS;
     }
 
@@ -97,13 +120,15 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
         session.beginTransaction();
         session.delete(businessObject);
         session.getTransaction().commit();
-        session.close();
         }
         catch (Exception exception)
         {
             LOG.error(CLASS_NAME + methodName + "an error occurred during delete movie : "+ businessObject.toString()
                     + "\nException:\n" + exception);
             return ErrorCode.ERROR;
+        }
+        finally {
+            session.close();
         }
 
         return ErrorCode.SUCCESS;
@@ -117,13 +142,14 @@ public class DataAccessObject implements DataAccessObjectInterface<BusinessObjec
         {
         session = sessionFactory.getSessionFactory().openSession();
         businessObject= (BusinessObject)  session.get(className,id);
-        session.close();
         }
         catch (Exception exception)
         {
             LOG.error(CLASS_NAME + methodName + "an error occurred during get of movieID:." + id +"\nException :+\n"+  exception);
         }
-
+        finally {
+            session.close();
+        }
         return businessObject;
     }
 

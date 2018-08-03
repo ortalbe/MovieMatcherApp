@@ -34,8 +34,6 @@ public class UserBO extends BusinessObject {
     @Column(name="USER_EMAIL")
     private String userEmail;
 
-
-    //TODO_Ortal - need to understand how to save it in the DB as gender
     @Enumerated(EnumType.STRING)
     private Gender userGender;
 
@@ -43,7 +41,8 @@ public class UserBO extends BusinessObject {
     private float userAge;
 
 
-    public UserBO() {
+    public UserBO()
+    {
         this.userID = null;
     }
 
@@ -56,6 +55,7 @@ public class UserBO extends BusinessObject {
         this.userLastName = userLastName;
         this.userPassword = userPassword;
         this.userEmail = userEmail;
+        this.userID = userEmail;
         this.setName(this.getClass().getName());
     }
 
@@ -65,6 +65,7 @@ public class UserBO extends BusinessObject {
         this.userPassword = userPassword;
         this.userEmail = userEmail;
         this.userGender = userGender;
+        this.userID = userEmail;
         this.setName(this.getClass().getName());
     }
 
@@ -75,6 +76,7 @@ public class UserBO extends BusinessObject {
         this.userEmail = userEmail;
         this.userGender = userGender;
         this.userAge = userAge;
+        this.userID = userEmail;
         this.setName(this.getClass().getName());
     }
 
@@ -87,6 +89,8 @@ public class UserBO extends BusinessObject {
         this.userEmail = userEmail;
         this.userGender = userGender;
         this.userAge = userAge;
+        this.userID = userEmail;
+        this.userID = userEmail;
         this.setName(this.getClass().getName());
     }
 

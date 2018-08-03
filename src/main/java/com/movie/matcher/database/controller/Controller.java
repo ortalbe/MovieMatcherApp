@@ -44,6 +44,12 @@ public class Controller {
         return status;
     }
 
+    public ErrorCode delete(BusinessObject busniessObject)
+    {
+        ErrorCode status = dataAccess.delete(busniessObject);
+        return status;
+    }
+
     public BusinessObject getByID(String businessObjectClass,String id)
     {
         BusinessObject businessObject = dataAccess.get(businessObjectClass,id);

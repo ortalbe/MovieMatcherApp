@@ -12,6 +12,8 @@ public enum ErrorCode{
     SUCCESS("Success"),
     ERROR("Error"),
     NOT_FOUND("Not Found"),
+    EXIST_ENTRY("Entry already exist"),
+    PERSISTENCE("Persistence Error"),
     WARNING("Warnning");
 
     private final String value;
